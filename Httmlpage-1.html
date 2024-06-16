@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="introduction">
+            <h2>About Me</h2>
+            <img src="https://media.licdn.com/dms/image/D4D03AQG1ljNHxkYQdA/profile-displayphoto-shrink_800_800/0/1666866062701?e=1723680000&v=beta&t=4gE-KYZE1YzYBcUm6xjoonTj5XO9ry2N_uRC6ByC7vc" alt="Profile Photo" class="profile-photo">
+            <p>Hi! I am a passionate photographer with a love for capturing the beauty of the world. Welcome to my personal website where you can learn more about me, view my resume, get my contact information, and see some of my work.</p>
+        </section>
+    </main>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="resume-content">
+            <p>Here is my resume:  
+                <a href="https://drive.google.com/file/d/1plf6M5IOx-KZQN51M3qehMb5p5dROVdL/view?usp=sharing" target="_blank" class="resume-button">View Resume</a>
+            </p>
+            <ul>
+                <li>Education: Bachelor's in Photography</li>
+                <li>Experience: 5 years as a freelance photographer</li>
+                <li>Skills: Portrait photography, landscape photography, photo editing</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+        <h3>Follow Me</h3>
+        <ul class="social-links">
+            <li><a href="https://github.com/shashikiran61612">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/shashi-kiran-a5486a194/">LinkedIn</a></li>
+            <li><a href="https://x.com/shashikiran9061">Twitter</a></li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-gallery">
+            <img src="https://images.pexels.com/photos/751820/pexels-photo-751820.jpeg?auto=compress&cs=tinysrgb&w=600" alt="photo 1">
+            <img src="https://images.pexels.com/photos/162110/wolf-predator-european-wolf-carnivores-162110.jpeg?auto=compress&cs=tinysrgb&w=600" alt="photo 2">
+            <img src="https://images.pexels.com/photos/65289/polar-bear-bear-teddy-sleep-65289.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Photo 3">
+            <img src="https://images.pexels.com/photos/2564889/pexels-photo-2564889.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Photo 4">
+            <img src="https://images.pexels.com/photos/2220336/pexels-photo-2220336.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Photo 5">
+            <img src="https://images.pexels.com/photos/133394/pexels-photo-133394.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Photo 6">
+            <img src="https://images.pexels.com/photos/302304/pexels-photo-302304.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Photo 7">
+            <img src="https://images.pexels.com/photos/624033/pexels-photo-624033.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Photo 8">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shashi Kiran Devalapally</p>
+    </footer>
+</body>
+</html>
